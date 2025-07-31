@@ -10,6 +10,7 @@ public class Main {
 }
 
 class QuizApp extends JFrame implements ActionListener {
+
     ArrayList<Question> questions = new ArrayList<>();
     int current = 0, score = 0;
     JLabel qLabel, timerLabel;
